@@ -1,0 +1,9 @@
+vector<int> v;
+vector<int> b;
+v.unique();
+v.reverse();
+v.merge(b);
+ 
+
+
+these are not defined for vector

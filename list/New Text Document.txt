@@ -1,0 +1,4 @@
+it has inset erase and remove 
+list.insert(iterator,value)
+list.erase(iterator)
+list.erase(element value)
