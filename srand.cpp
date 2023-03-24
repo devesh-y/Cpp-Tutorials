@@ -7,4 +7,5 @@ int main()
     {
         cout<<rand()%10<<endl;
     }
+    cout<<"done";
 }
