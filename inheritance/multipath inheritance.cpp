@@ -7,7 +7,7 @@ class student
     public:
         void getdata()
         {
-            cout<<"enter the marks:";cin>>marks;cout<<endl;
+            cout<<"student\n";
         }    
 };
 class hello:public student
@@ -17,7 +17,7 @@ class hello:public student
     public:
         void getdata()
         {
-            cout<<"enter the roll no: ";cin>>rollno;cout<<endl;
+            cout<<"hello\n";
         }        
 };
 class you:public hello
@@ -27,7 +27,7 @@ class you:public hello
     public:
         void getdata()
         {
-            cout<<"enter the number: ";cin>>number;cout<<endl;
+            cout<<"you\n";
         }
 
     
@@ -40,4 +40,5 @@ int main()
                  // if in you class the function is changed to youdata() then it will call the function getdata() of hello class and also
                  //when the getdata() function of hello class is changed to gettdata() then it will call the getdata() function of student class
     y1.student::getdata(); //it will call the student function      
+    y1.hello::getdata(); //it will call the student function      
 }
