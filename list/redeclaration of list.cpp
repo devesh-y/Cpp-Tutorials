@@ -8,7 +8,7 @@ int main()
     int arr2[2]={565,344343};
     list<int> mylist(arr,arr+3);
     cout<<mylist.front();
-    mylist={arr2,arr2+2};
+    mylist.assign(arr, arr+3);
 
-    cout<<"\n"<<mylist.front();
+    cout<<"\n"<<mylist.back();
 }

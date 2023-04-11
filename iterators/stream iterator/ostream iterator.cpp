@@ -15,6 +15,6 @@ int main()
     cout << "\nContents of list: ";
 
     copy(theList.begin(), theList.end(), ositer); //display list
-
     
+
 }
