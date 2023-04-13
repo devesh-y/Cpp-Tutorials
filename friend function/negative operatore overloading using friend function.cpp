@@ -23,8 +23,6 @@ A operator -(A ob)
     ob.a = -(ob.a);
     return ob;
 }
-
-
 int main()
 {
     A ob;
