@@ -10,15 +10,15 @@ int main()
 	string str2 = "3.14159";
 	string str3 = "31337 geek";
 
-	int myint1 = stoi(str1);
-	int myint2 = stoi(str2);
-	int myint3 = stoi(str3);
+	int myint1 = stol(str1);
+	float myint2 = stol(str2);
+	int myint3 = stol(str3);
 
-	cout << "stoi(\"" << str1 << "\") is "
+	cout << "stol(\"" << str1 << "\") is "
 		<< myint1 << '\n';
-	cout << "stoi(\"" << str2 << "\") is "
+	cout << "stol(\"" << str2 << "\") is "
 		<< myint2 << '\n';
-	cout << "stoi(\"" << str3 << "\") is "
+	cout << "stol(\"" << str3 << "\") is "
 		<< myint3 << '\n';
 
 	return 0;

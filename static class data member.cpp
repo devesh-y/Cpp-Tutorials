@@ -27,6 +27,6 @@ int main()
     cout << "count is " << f1.getcount() << endl;
     cout << "count is " << f2.getcount() << endl;
     cout << "count is " << f3.getcount() << endl; 
-    cout<<foo.count;
+    cout<<foo::count;
     return 0;
 }

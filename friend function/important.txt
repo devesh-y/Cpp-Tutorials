@@ -1,2 +1,5 @@
+while normal operator overloading of + operator it require one argument as parameter but using friend function, it require 2 .
+
+
 one important thing in friend function is that whether you have to use return function or else you have to use reference
 unless it wont work
