@@ -21,8 +21,6 @@ int main()
     double yy=555.454544855241444442;
     cout<<endl<<yy;// here mingw compiler not showing larger than 6 digits
 
-    
-
     cout<<endl<<setprecision(15)<<yy;//here if we increase the precision of digits greater than 15 digits then it will put garbage vallue because max is 15 for double
     
 }

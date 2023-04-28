@@ -13,6 +13,9 @@ class Base
         {
             cout<<"this is parametrized constructor\n";
         }
+        ~Base(){
+            cout<<"base destroyed\n";
+        }
         void show() 
         { 
             cout << "Base\n"; 
@@ -25,6 +28,9 @@ class Derv1 : public Base
         Derv1(int a)
         {
             cout<<"constructing derv1\n";
+        }
+        ~Derv1(){
+            cout<<"derv1 destroyed\n";
         }
         void show()
         { 
@@ -41,6 +47,9 @@ class Derv2 : public Base
         Derv2(int b)
         {
             cout<<"constructing derv2\n";
+        }
+        ~Derv2(){
+            cout<<"derv2 destroyed\n";
         }
         void show()
         { 
