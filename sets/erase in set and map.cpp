@@ -4,6 +4,7 @@ using namespace std;
 signed main()
 {
     set<int> s={1,2,3,4,5,6};
+    s.erase(3);
     set<int>::iterator iter;
     iter=s.begin();
     advance(iter,3);
